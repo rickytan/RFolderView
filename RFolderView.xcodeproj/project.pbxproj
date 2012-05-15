@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C881E8B153CEA16007F20F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C881E8A153CEA16007F20F7 /* UIKit.framework */; };
+		9C881E8D153CEA16007F20F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C881E8C153CEA16007F20F7 /* Foundation.framework */; };
+		9C881E8F153CEA16007F20F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C881E8E153CEA16007F20F7 /* CoreGraphics.framework */; };
+		9C881E95153CEA16007F20F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C881E93153CEA16007F20F7 /* InfoPlist.strings */; };
+		9C881E97153CEA16007F20F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C881E96153CEA16007F20F7 /* main.m */; };
+		9C881E9B153CEA16007F20F7 /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C881E9A153CEA16007F20F7 /* RTAppDelegate.m */; };
+		9C881E9E153CEA16007F20F7 /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C881E9D153CEA16007F20F7 /* RTViewController.m */; };
+		9C881EA1153CEA16007F20F7 /* RTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C881E9F153CEA16007F20F7 /* RTViewController_iPhone.xib */; };
+		9C881EA4153CEA16007F20F7 /* RTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C881EA2153CEA16007F20F7 /* RTViewController_iPad.xib */; };
+		9C881EAD153CEAD3007F20F7 /* UIView+RTExterntion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C881EAC153CEAD3007F20F7 /* UIView+RTExterntion.m */; };
+		9C881EB0153CEB43007F20F7 /* RTFolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C881EAF153CEB43007F20F7 /* RTFolderView.m */; };
+		9C881EB2153CEB78007F20F7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C881EB1153CEB78007F20F7 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C881E86153CEA16007F20F7 /* RFolderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFolderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C881E8A153CEA16007F20F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C881E8C153CEA16007F20F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9C881E8E153CEA16007F20F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C881E92153CEA16007F20F7 /* RFolderView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RFolderView-Info.plist"; sourceTree = "<group>"; };
+		9C881E94153CEA16007F20F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C881E96153CEA16007F20F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C881E98153CEA16007F20F7 /* RFolderView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RFolderView-Prefix.pch"; sourceTree = "<group>"; };
+		9C881E99153CEA16007F20F7 /* RTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
+		9C881E9A153CEA16007F20F7 /* RTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
+		9C881E9C153CEA16007F20F7 /* RTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
+		9C881E9D153CEA16007F20F7 /* RTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
+		9C881EA0153CEA16007F20F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RTViewController_iPhone.xib; sourceTree = "<group>"; };
+		9C881EA3153CEA16007F20F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RTViewController_iPad.xib; sourceTree = "<group>"; };
+		9C881EAB153CEAD3007F20F7 /* UIView+RTExterntion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RTExterntion.h"; sourceTree = "<group>"; };
+		9C881EAC153CEAD3007F20F7 /* UIView+RTExterntion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RTExterntion.m"; sourceTree = "<group>"; };
+		9C881EAE153CEB43007F20F7 /* RTFolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTFolderView.h; sourceTree = "<group>"; };
+		9C881EAF153CEB43007F20F7 /* RTFolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTFolderView.m; sourceTree = "<group>"; };
+		9C881EB1153CEB78007F20F7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C881E83153CEA16007F20F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C881EB2153CEB78007F20F7 /* QuartzCore.framework in Frameworks */,
+				9C881E8B153CEA16007F20F7 /* UIKit.framework in Frameworks */,
+				9C881E8D153CEA16007F20F7 /* Foundation.framework in Frameworks */,
+				9C881E8F153CEA16007F20F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C881E7B153CEA16007F20F7 = {
+			isa = PBXGroup;
+			children = (
+				9C881E90153CEA16007F20F7 /* RFolderView */,
+				9C881E89153CEA16007F20F7 /* Frameworks */,
+				9C881E87153CEA16007F20F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C881E87153CEA16007F20F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C881E86153CEA16007F20F7 /* RFolderView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C881E89153CEA16007F20F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C881EB1153CEB78007F20F7 /* QuartzCore.framework */,
+				9C881E8A153CEA16007F20F7 /* UIKit.framework */,
+				9C881E8C153CEA16007F20F7 /* Foundation.framework */,
+				9C881E8E153CEA16007F20F7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C881E90153CEA16007F20F7 /* RFolderView */ = {
+			isa = PBXGroup;
+			children = (
+				9C881EAA153CEA82007F20F7 /* RFolderView */,
+				9C881E99153CEA16007F20F7 /* RTAppDelegate.h */,
+				9C881E9A153CEA16007F20F7 /* RTAppDelegate.m */,
+				9C881E9C153CEA16007F20F7 /* RTViewController.h */,
+				9C881E9D153CEA16007F20F7 /* RTViewController.m */,
+				9C881E9F153CEA16007F20F7 /* RTViewController_iPhone.xib */,
+				9C881EA2153CEA16007F20F7 /* RTViewController_iPad.xib */,
+				9C881E91153CEA16007F20F7 /* Supporting Files */,
+			);
+			path = RFolderView;
+			sourceTree = "<group>";
+		};
+		9C881E91153CEA16007F20F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C881E92153CEA16007F20F7 /* RFolderView-Info.plist */,
+				9C881E93153CEA16007F20F7 /* InfoPlist.strings */,
+				9C881E96153CEA16007F20F7 /* main.m */,
+				9C881E98153CEA16007F20F7 /* RFolderView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C881EAA153CEA82007F20F7 /* RFolderView */ = {
+			isa = PBXGroup;
+			children = (
+				9C881EAB153CEAD3007F20F7 /* UIView+RTExterntion.h */,
+				9C881EAC153CEAD3007F20F7 /* UIView+RTExterntion.m */,
+				9C881EAE153CEB43007F20F7 /* RTFolderView.h */,
+				9C881EAF153CEB43007F20F7 /* RTFolderView.m */,
+			);
+			path = RFolderView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C881E85153CEA16007F20F7 /* RFolderView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C881EA7153CEA16007F20F7 /* Build configuration list for PBXNativeTarget "RFolderView" */;
+			buildPhases = (
+				9C881E82153CEA16007F20F7 /* Sources */,
+				9C881E83153CEA16007F20F7 /* Frameworks */,
+				9C881E84153CEA16007F20F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFolderView;
+			productName = RFolderView;
+			productReference = 9C881E86153CEA16007F20F7 /* RFolderView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C881E7D153CEA16007F20F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9C881E80153CEA16007F20F7 /* Build configuration list for PBXProject "RFolderView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C881E7B153CEA16007F20F7;
+			productRefGroup = 9C881E87153CEA16007F20F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C881E85153CEA16007F20F7 /* RFolderView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C881E84153CEA16007F20F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C881E95153CEA16007F20F7 /* InfoPlist.strings in Resources */,
+				9C881EA1153CEA16007F20F7 /* RTViewController_iPhone.xib in Resources */,
+				9C881EA4153CEA16007F20F7 /* RTViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C881E82153CEA16007F20F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C881E97153CEA16007F20F7 /* main.m in Sources */,
+				9C881E9B153CEA16007F20F7 /* RTAppDelegate.m in Sources */,
+				9C881E9E153CEA16007F20F7 /* RTViewController.m in Sources */,
+				9C881EAD153CEAD3007F20F7 /* UIView+RTExterntion.m in Sources */,
+				9C881EB0153CEB43007F20F7 /* RTFolderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C881E93153CEA16007F20F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C881E94153CEA16007F20F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9C881E9F153CEA16007F20F7 /* RTViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C881EA0153CEA16007F20F7 /* en */,
+			);
+			name = RTViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9C881EA2153CEA16007F20F7 /* RTViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C881EA3153CEA16007F20F7 /* en */,
+			);
+			name = RTViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C881EA5153CEA16007F20F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C881EA6153CEA16007F20F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C881EA8153CEA16007F20F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RFolderView/RFolderView-Prefix.pch";
+				INFOPLIST_FILE = "RFolderView/RFolderView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9C881EA9153CEA16007F20F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RFolderView/RFolderView-Prefix.pch";
+				INFOPLIST_FILE = "RFolderView/RFolderView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C881E80153CEA16007F20F7 /* Build configuration list for PBXProject "RFolderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C881EA5153CEA16007F20F7 /* Debug */,
+				9C881EA6153CEA16007F20F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C881EA7153CEA16007F20F7 /* Build configuration list for PBXNativeTarget "RFolderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C881EA8153CEA16007F20F7 /* Debug */,
+				9C881EA9153CEA16007F20F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C881E7D153CEA16007F20F7 /* Project object */;
+}
